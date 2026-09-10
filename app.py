@@ -31,5 +31,5 @@ for m in live_matches:
 if not found:
     st.info("No live matches under strategy on SofaScore right now.")
 
-time.sleep(120)
+time.sleep(15)
 st.rerun()
